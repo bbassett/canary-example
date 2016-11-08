@@ -3,4 +3,9 @@
 
 import './__local__/index.ess'
 
+var showBanner = this.canary.get('show-banner')
+
 h1 canary-example
+
+if showBanner
+  h1 THIS IS BANNER
