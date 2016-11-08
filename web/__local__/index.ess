@@ -1,0 +1,3 @@
+.App-component
+  background-color white
+  color = __.color.primary.soft
